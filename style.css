@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    min-height: 100vh;
+    color: #1e3a8a;
+}
+
+nav {
+    background: #bfdbfe;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav button {
+    background: #93c5fd;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page {
+    display: none;
+    padding: 40px;
+}
+
+.page.active {
+    display: block;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card h2, .card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #c7d2fe;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #60a5fa;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3b82f6;
+}
+
+#preview {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#result {
+    margin-top: 15px;
+    padding: 15px;
+    background: #e0f2fe;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.info {
+    background: #f0f9ff;
+}
